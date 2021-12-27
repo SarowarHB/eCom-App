@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,7 +16,7 @@
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/nice-select.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/slick.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/style.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/main-color.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/css/main-color03-green.css')}}">
 </head>
 <body class="biolife-body">
 
@@ -34,18 +33,17 @@
 
     <!-- HEADER -->
     @include('index.body.header')
-   
-
     <!-- Page Contain -->
     <div class="page-contain">
 
-        <!-- Main content -->
-        @yield('content')
+    @yield('content')
 
+       
     </div>
 
     <!-- FOOTER -->
-   @include('index.body.footer')
+    @include('index.body.footer')
+
     <!--Footer For Mobile-->
     <div class="mobile-footer">
         <div class="mobile-footer-inner">

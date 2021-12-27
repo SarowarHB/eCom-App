@@ -8,7 +8,7 @@ Register
 <div class="container">
     <nav class="biolife-nav">
         <ul>
-            <li class="nav-item"><a href="index-2.html" class="permal-link">Home</a></li>
+            <li class="nav-item"><a href="{{route('/')}}" class="permal-link">Home</a></li>
             <li class="nav-item"><span class="current-page">Authentication</span></li>
         </ul>
     </nav>
@@ -53,20 +53,11 @@ Register
                         </p>
                         <p class="form-row wrap-btn">
                             <button class="btn btn-submit btn-bold" type="submit">sign Up</button>
-
-
                             <a href="{{ route('login') }}" class="link-to-help">Already registered?</a>
-
                         </p>
-
                     </form>
-
-
                 </div>
             </div>
-
-
-
         </div>
 
     </div>
